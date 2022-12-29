@@ -1,5 +1,5 @@
 
-# **Algorithme d'Apprentissage Supervisé pour un Problème de Classification d'Images** :
+# **Algorithme d'Apprentissage Supervisé pour un      Problème de Classification d'Images** :
 
 ![Mini-Projet](Capture.PNG)
 
@@ -24,11 +24,11 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________
 
 ## III. **Modèle :** 
-## 1 Type du modèle : Reseau de Neurones convolutif (CNN)  
+## 1. Type du modèle : Reseau de Neurones Convolutif (CNN)  
 #### Les réseaux de neurones convolutionnels (CNN) sont un type de modèle d'apprentissage profond particulièrement adapté aux tâches de classification d'images et de reconnaissance d'objets.
 
                            -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-## 2 Architecture du modèle : 
+## 2. Architecture du modèle : 
 ##### Pour résoudre cette tâche de traitement d'image, nous avons combiné un backbone avec des couches entièrement connectées (Fully connected)  
 
 ### 2.1 Backbone : ResNet18 
@@ -44,7 +44,7 @@ ________________________________________________________________________________
 ##### C'est un type de couche de réseau de neurones dans lequel tous les neurones de la couche précédente sont connectés à tous les neurones de la couche suivante. Les couches entièrement connectées sont utilisées dans les réseaux de neurones pour effectuer des opérations de classification (prédiction). Il recupère les features en entrée et retourne la classe de l'image en sortie.
 
                            -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-## 3 Paramètres du modèle :
+## 3. Paramètres du modèle :
 
 ### 3.1 Fonction d'activation : ReLU (Unité Linéaire Rectifiée)
 #### Une fonction d'activation est une fonction mathématique qui est appliquée à l'entrée d'un neurone dans un réseau de neurones afin de déterminer sa sortie. Elle joue un rôle important dans la capacité à apprendre et à effectuer des prédictions.
@@ -55,7 +55,7 @@ ________________________________________________________________________________
 #### **Descente de Gradient Stochastique "SGD" est un algorithme de descente de gradient qui utilise une petite portion des données d'entraînement (un échantillon) à chaque itération pour mettre à jour les poids et les biais du modèle**.
 
                            -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-## 4 Métriques d'évaluation du modèle : 
+## 4. Métriques d'évaluation du modèle : 
 #### Elles sont utilisées pour évaluer les performances du modèle
 
 ### 4.1 Fonction de coût / erreur : Entropie croisée ou fonction de coût logistique
@@ -65,3 +65,4 @@ ________________________________________________________________________________
 ### 4.2 Précision (accuracy)
 #### L'accuracy est une mesure de la performance d'un modèle de classification qui indique le pourcentage de prédictions correctes effectuées par le modèle. C'est une mesure de la qualité des prédictions du modèle et est utilisée pour évaluer la performance du modèle sur un ensemble de données de test.
 ####  **Plus l'accuracy est élévée, plus le modèle est performant**.
+                           -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
