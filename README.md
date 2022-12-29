@@ -1,1 +1,2 @@
-#Projet
+
+![Mini-Projet](Capture.PNG)
