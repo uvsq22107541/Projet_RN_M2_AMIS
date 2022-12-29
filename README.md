@@ -8,7 +8,7 @@
 #### Un des cas d'applications, une voiture autonome peut utiliser ce modèle pour distinguer les routes des champs et ainsi, éviter les champs et maintenir sa trajectoire  uniquement sur les routes.
 
 __________________________________________________________________________________________________________________________
-##II. **Dataset :**
+## II. **Dataset :**
 
 #### **> Création** : Le dataset d'images a été crée par nous-meme, et ceci en collectant des images de routes et de champs depuis internet.
 #### Deux dossiers ont été crées pour chaque classe d'images.
@@ -23,11 +23,11 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________
 
-##III. **Modèle :** 
+## III. **Modèle :** 
 ## 1 Type du modèle : Reseau de Neurones convolutif (CNN)  
 #### Les réseaux de neurones convolutionnels (CNN) sont un type de modèle d'apprentissage profond particulièrement adapté aux tâches de classification d'images et de reconnaissance d'objets.
 
--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+                                        -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 ## 2 Architecture du modèle : 
 ##### Pour résoudre cette tâche de traitement d'image, nous avons combiné un backbone avec des couches entièrement connectées (Fully connected)  
 
@@ -43,7 +43,7 @@ ________________________________________________________________________________
 ### 2.2 Fully Connected
 ##### C'est un type de couche de réseau de neurones dans lequel tous les neurones de la couche précédente sont connectés à tous les neurones de la couche suivante. Les couches entièrement connectées sont utilisées dans les réseaux de neurones pour effectuer des opérations de classification (prédiction). Il recupère les features en entrée et retourne la classe de l'image en sortie.
 
--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+                                        -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 ## 3 Paramètres du modèle :
 
 ### 3.1 Fonction d'activation : ReLU (Unité Linéaire Rectifiée)
@@ -54,7 +54,7 @@ ________________________________________________________________________________
 #### Un optimiseur est un algorithme utilisé pour pour ajuster les poids et les biais du modèle de manière à minimiser la fonction de coût / erreur sur l'ensemble d'entraînement.
 #### **Descente de Gradient Stochastique "SGD" est un algorithme de descente de gradient qui utilise une petite portion des données d'entraînement (un échantillon) à chaque itération pour mettre à jour les poids et les biais du modèle**.
 
--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+                                        -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 ## 4 Métriques d'évaluation du modèle : 
 #### Elles sont utilisées pour évaluer les performances du modèle
 
