@@ -1,5 +1,5 @@
 
-# **Algorithme d'Apprentissage Supervisé pour un      Problème de Classification d'Images** :
+# **Algorithme d'Apprentissage Supervisé pour un Problème de Classification d'Images** :
 
 ![Mini-Projet](Capture.PNG)
 
@@ -66,3 +66,9 @@ ________________________________________________________________________________
 #### L'accuracy est une mesure de la performance d'un modèle de classification qui indique le pourcentage de prédictions correctes effectuées par le modèle. C'est une mesure de la qualité des prédictions du modèle et est utilisée pour évaluer la performance du modèle sur un ensemble de données de test.
 ####  **Plus l'accuracy est élévée, plus le modèle est performant**.
                            -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+# **Bibliographie** :
+### https://pytorch.org/
+### https://pytorch.org/vision/main/models/generated/torchvision.models.resnet18.html
+### https://www.kaggle.com/
+### https://www.youtube.com/watch?v=K0lWSB2QoIQ&ab_channel=PatrickLoeber
