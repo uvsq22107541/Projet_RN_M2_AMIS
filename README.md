@@ -1,4 +1,7 @@
-
+# Binome : 
+  ## 1. Sarah OUHOCINE
+  ## 2. Djillali BOUTOUILI
+  
 # **Algorithme d'Apprentissage Supervisé pour un Problème de Classification d'Images** :
 
 ![Mini-Projet](Capture.PNG)
