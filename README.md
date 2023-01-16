@@ -57,15 +57,17 @@ ________________________________________________________________________________
 #### Un optimiseur est un algorithme utilisé pour pour ajuster les poids et les biais du modèle de manière à minimiser la fonction de coût / erreur sur l'ensemble d'entraînement.
 #### **Descente de Gradient Stochastique "SGD" est un algorithme de descente de gradient qui utilise une petite portion des données d'entraînement (un échantillon) à chaque itération pour mettre à jour les poids et les biais du modèle**.
 
-                           -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-## 4. Métriques d'évaluation du modèle : 
-#### Elles sont utilisées pour évaluer les performances du modèle
-
-### 4.1 Fonction de coût / erreur : Entropie croisée ou fonction de coût logistique
+### 3.3 Fonction de coût / erreur : Entropie croisée ou fonction de coût logistique
 #### Elle est utilisée comme fonction de coût non linéaire dans un modèle de réseau de neurones pour minimiser l'erreur du modèle. Elle est souvent utilisée avec la descente de gradient stochastique (SGD) pour ajuster les poids et les biais du modèle de manière à minimiser l'erreur sur l'ensemble d'entraînement. Elle est souvent utilisée dans les modèles de classification supervisée pour mesurer la performance du modèle. Elle est utilisée pour mesurer l'écart entre les prédictions du modèle et les valeurs cibles. Plus précisément, la fonction d'erreur entropie croisée est utilisée pour mesurer la "distance" entre la distribution de probabilité prédite par le modèle et la distribution de probabilité cible (réelle).
 ####  **Plus l'entropie croisée est basse, plus le modèle est performant**.
 
-### 4.2 Précision (accuracy)
+
+                           -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+## 4. Métrique d'évaluation du modèle : 
+#### Elle sest utilisée pour évaluer les performances du modèle
+
+
+### 4.1 Précision (accuracy)
 #### L'accuracy est une mesure de la performance d'un modèle de classification qui indique le pourcentage de prédictions correctes effectuées par le modèle. C'est une mesure de la qualité des prédictions du modèle et est utilisée pour évaluer la performance du modèle sur un ensemble de données de test.
 ####  **Plus l'accuracy est élévée, plus le modèle est performant**.
                            -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-

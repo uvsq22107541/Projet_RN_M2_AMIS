@@ -23,15 +23,16 @@
 #### c) Robustesse: L'optimiseur SGD est souvent robuste aux conditions initiales et aux paramètres choisis, ce qui le rend souvent moins sensible aux variations de ces paramètres que d'autres algorithmes d'optimisation.
 #### d) Sélection de modèle: L'optimiseur SGD peut être utilisé pour sélectionner un modèle parmi une variété de modèles en comparant leurs performances sur un dataset de test.
 
-                           -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-## 4. Métriques d'évaluation du modèle : 
-### 4.1 Fonction de coût / erreur : Entropie croisée ou fonction de coût logistique
+### 3.3 Fonction de coût / erreur : Entropie croisée ou fonction de coût logistique
 #### nous avons choisi  l'entropie croisée car:
 #### a) Elle est souvent bien adaptée aux tâches de classification: la fonction d'erreur entropie croisée est souvent utilisée dans les modèles de classification supervisée en raison de sa capacité à mesurer l'écart entre les prédictions du modèle et les valeurs cibles.
 ##### b) Elle est souvent facile à calculer et à optimiser.
 ####  c) L'entropie croisée est moins sensible aux outliers et ne les amplifie pas.
 
-### 4.2 Précision (accuracy)
+                           -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+## 4. Métrique d'évaluation du modèle : 
+
+### 4.1 Précision (accuracy)
 #### nous avons choisi  l'entropie croisée car:
 #### a) Notre dataset est équilibré.
 #### b) Elle est facile à comprendre et à interpréter.
