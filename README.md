@@ -7,8 +7,8 @@
 ![Mini-Projet](Capture.PNG)
 
 ## I. **Contexte et objectif de notre mini-projet :** 
-### Nous allons former un modèle en PyTorch sur un datasat d'images pour classer les routes et les champs (classification binaire).
-### Un des cas d'applications, une voiture autonome peut utiliser ce modèle pour distinguer les routes des champs et ainsi, éviter les champs et maintenir sa trajectoire  uniquement sur les routes.
+### Nous avons formé un modèle en PyTorch sur un datasat d'images pour classer les routes et les champs (classification binaire).
+### Un des cas d'applications, une voiture autonome peut utiliser ce modèle pour distinguer les routes des champs.
 
 __________________________________________________________________________________________________________________________
 ## II. **Dataset :**
